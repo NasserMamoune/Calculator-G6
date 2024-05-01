@@ -1,0 +1,93 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #2eadd7;
+    background-size: 100%;
+    
+}
+
+input {
+
+    height: 42px;
+    width: 60%;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 11px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    left: 105px;
+    border: #000000 2px solid;
+    
+}
+
+output {
+    height: 42px;
+    width: 59%;
+    border: 2px solid rgb(0, 0, 0);
+    background: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 12px;
+    padding-top: 8px;
+    margin-top: 22px;
+    display: flex;
+    position: relative;
+    left: 109px;
+
+}
+
+
+#operationPage{
+
+        width: 600px;
+        background: #fff8f8b0;
+        padding: 25px 30px;
+        border-radius: 5px;
+        position: relative;
+        color: #000000;
+    }
+
+#submit-button{
+    width: 59%;
+    height: 42px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 110px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -11px;
+}
+
+label{
+
+    font-size: 17px;
+    padding-left: 116px;
+
+}
