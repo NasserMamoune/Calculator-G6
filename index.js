@@ -8,26 +8,11 @@ function calculate(operation) {
         case 'add':
                 result = num1 + num2;
             break;
-        case
-            'add' :
-            var num3 = parseFloat(document.getElementById ("num3"). value);
-            if (!isNaN(num3)) {
-            result = num1 + num2 + num3;
-             } else {
-            result = num1 + num2;
-             }
-            break;    
         case 'subtract':
             result = num1 - num2;
             break;
         case 'multiply':
-            var num3 = parseFloat(document.getElementById("num3").value);
-            if (!isNaN(num3)){
-                result = num1 * num2 * num3
-            } 
-            else {
-                result = num1 * num2
-            }
+                result = num1 * num2;
             break;
         case 'divide':
             if (num2 === 0) {
